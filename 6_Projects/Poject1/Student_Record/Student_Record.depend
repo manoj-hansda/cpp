@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1470146449 source:e:\folder\programs\cpp programs\projects\poject1\student_record\main.cpp
+	<iostream>
+
+1470334689 source:c:\users\manoj\documents\cpp programs\projects\poject1\student_record\main.cpp
+	<iostream>
+	"student.h"
+	"functions.h"
+
+1470334508 source:c:\users\manoj\documents\cpp programs\projects\poject1\student_record\src\student.cpp
+	"student.h"
+
+1470334030 c:\users\manoj\documents\cpp programs\projects\poject1\student_record\include\student.h
+	<iostream>
+
+1470333680 source:c:\users\manoj\documents\cpp programs\projects\poject1\student_record\src\functions.cpp
+	"functions.h"
+	<iostream>
+
+1470333683 c:\users\manoj\documents\cpp programs\projects\poject1\student_record\include\functions.h
+
