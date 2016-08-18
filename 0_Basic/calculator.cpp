@@ -6,7 +6,7 @@
 int sum(int, int);
 int sub(int, int);
 int mul(int, int);
-int div(int, int);
+int divi(int, int);
 
 using namespace std;
 
@@ -40,7 +40,7 @@ int main()
             break;
 
         case 4:
-            cout << "Quotient = " << div(num1, num2);   // calling fun. div()
+            cout << "Quotient = " << divi(num1, num2);   // calling fun. div()
             break;
 
         default:
@@ -56,4 +56,4 @@ int main()
 int sum( int x, int y) { return x+y; }
 int sub( int x, int y) { return x-y; }
 int mul( int x, int y) { return x*y; }
-int div( int x, int y) { return x/y; }
+int divi( int x, int y) { return x/y; }
