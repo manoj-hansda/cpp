@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1471291762 source:c:\users\manoj\documents\cpp programs\6_projects\atm_simulation\main.cpp
-	<iostream>
-	<stdio.h>
-	<conio.h>
-	<string.h>
-

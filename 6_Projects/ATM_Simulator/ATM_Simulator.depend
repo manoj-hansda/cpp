@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1471861096 source:e:\cpp programs\6_projects\atm_simulator\main.cpp
+	<iostream>
+	"customer.h"
+	"functions.h"
+
+1471860500 e:\cpp programs\6_projects\atm_simulator\include\customer.h
+
+1471860518 e:\cpp programs\6_projects\atm_simulator\include\functions.h
+
+1471860536 source:e:\cpp programs\6_projects\atm_simulator\src\customer.cpp
+	"customer.h"
+
+1471861136 source:e:\cpp programs\6_projects\atm_simulator\src\functions.cpp
+	<iostream>
+	<conio.h>
+
+1471891745 source:c:\users\manoj\documents\cpp programs\6_projects\atm_simulator\src\functions.cpp
+	<iostream>
+	<conio.h>
+
+1471891852 source:c:\users\manoj\documents\cpp programs\6_projects\atm_simulator\main.cpp
+	<iostream>
+	"customer.h"
+	"functions.h"
+
+1471891762 c:\users\manoj\documents\cpp programs\6_projects\atm_simulator\include\customer.h
+	<iostream>
+
+1471891644 c:\users\manoj\documents\cpp programs\6_projects\atm_simulator\include\functions.h
+
+1471891318 source:c:\users\manoj\documents\cpp programs\6_projects\atm_simulator\src\customer.cpp
+	"customer.h"
+	<string.h>
+

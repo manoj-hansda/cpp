@@ -4,7 +4,7 @@ using namespace std;
 
 class A {
     public:
-         virtual void f1() {
+        virtual void f1() {
             cout << "base virtual function" << endl;
         }
 };
@@ -17,13 +17,16 @@ class B : public A {
 };
 class C : public A {
     public:
-
+        void f1() {
+            cout << "derived(C) virtual function" << endl;
+        }
 };
 
 int main()
 {
     A *p, a1;
     a1.f1();
+
 
     B b1;
     p = &b1;

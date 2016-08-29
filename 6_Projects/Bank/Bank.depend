@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1471975811 source:c:\users\manoj\documents\cpp programs\6_projects\bank\main.cpp
+	<iostream>
+	"Customer.h"
+	"functions.h"
+
+1471977899 c:\users\manoj\documents\cpp programs\6_projects\bank\include\functions.h
+	<iostream>
+
+1471975623 source:c:\users\manoj\documents\cpp programs\6_projects\bank\src\customer.cpp
+	"Customer.h"
+
+1471977888 c:\users\manoj\documents\cpp programs\6_projects\bank\include\customer.h
+	<iostream>
+
+1471977240 source:c:\users\manoj\documents\cpp programs\6_projects\bank\src\functions.cpp
+	<iostream>
+	<string.h>
+	"Customer.h"
+	"functions.h"
+
