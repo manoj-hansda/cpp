@@ -8,14 +8,15 @@ int main()
 {
     cout << "\t\t Welcome to ABC Bank " << endl
          << "---------------------------------------------------------" << endl
-         << "1.Login (Existing user) \t 2.Sign up (New user)" << endl;
+         << "1.Login (Existing user) \t 2.Sign up (New user)" << endl
+         << "---------------------------------------------------------" << endl;
 
-    int option = getChoice();
+    int option = getChoiceAmong(2);
 
     switch(option)
     {
         case 1:
-            //loginInterface();
+            loginInterface();
             break;
         case 2:
             signupInterface();

@@ -18,6 +18,9 @@ class Customer
         friend void signupInterface();
         friend void loginInterface();
 
+        friend void showProfile(Customer);
+        friend void logOut(Customer co);
+
        // void setDetails();
        // void getDetails();
 };

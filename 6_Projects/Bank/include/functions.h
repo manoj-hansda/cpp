@@ -4,9 +4,11 @@
 #include <iostream>
 using namespace std;
 
-int getChoice();
+int getChoiceAmong(int n);
+int getChoiceAmong(int n);
 void signupInterface();
 void loginInterface();
+void showProfile(Customer);
 string setUsername();
 string setPassword();
 
