@@ -30,7 +30,6 @@ int main()
 {
     MyClass obj1(3);
     MyClass obj2(5);
-    MyClass(3.5);
 
     MyClass obj3 = obj1 + obj2;
 

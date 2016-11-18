@@ -39,7 +39,6 @@ int main()
     MyClass c3 {3, 5.2};
 
     c2.showValues();
-    c3.showValues();
 
     cin.get();
     return 0;

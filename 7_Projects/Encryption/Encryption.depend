@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1473362599 source:c:\users\manoj\documents\cpp programs\7_projects\encryption\encryption\main.cpp
+	<iostream>
+	"Encryptor.h"
+
+1473362097 c:\users\manoj\documents\cpp programs\7_projects\encryption\encryption\include\encryptor.h
+	<iostream>
+	<fstream>
+
+1473362199 source:c:\users\manoj\documents\cpp programs\7_projects\encryption\encryption\src\encryptor.cpp
+	"Encryptor.h"
+
