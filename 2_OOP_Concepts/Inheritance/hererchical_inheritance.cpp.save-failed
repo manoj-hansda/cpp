@@ -1,0 +1,83 @@
+#include <iostream>
+using namespace std;
+
+class Account
+{
+
+    protected:
+        string Name;
+        long int AccNo;
+        string Type;
+        double Balance;
+        static long int AccountNumber;
+    public:
+        void setDetails(string n) { Name = n; }
+        void deposit(int amt) { Balance = Balance + amt; }
+        virtual void calcInterest() {}
+
+};
+long int Account :: AccountNumber = 123456789;
+
+class Cur_Acc : public Account
+{
+    public:
+        Cur_Acc()
+        {
+            AccNo = AccountNumber++ ;
+            Type = "current account";
+            Balance = 0;
+        }
+        void about()
+        {
+            cout << "This is current accont" << endl;
+        }
+
+};
+
+class Sav_Acc : public Account
+{
+    public:
+        Sav_Acc()
+        {
+            AccNo = AccountNumber++ ;
+            Type = "saving account";
+            Balance = 0;
+        }
+        virtual void calcInterest()
+        {
+            cout << "hello";
+        }
+        void about()
+        {
+            cout << "This is current accont" << endl;
+        }
+};
+
+void getDetails(Sav_Acc &a)
+{
+    a.about();
+}
+
+int main()
+{
+    string name;
+    double amount;
+
+    Cur_Acc acc1;
+    Sav_Acc acc2;
+    cout << "Enter Acc 1 details: " << endl;
+    cout << "Name: ";   cin >> name;
+    cout << "Deposit money: ";  cin >> amount;
+    acc1.setDetails(name);
+    acc1.deposit(amount);
+
+    cout << "Enter Acc 2 details: " << endl;
+    cout << "Name: ";   cin >> name;
+    cout << "Deposit money: ";  cin >> amount;
+    acc2.setDetails(name);
+    acc2.deposit(amount);
+    acc2.calcInterest();
+
+    //getDetails(acc1);
+    getDetails(acc2);
+}

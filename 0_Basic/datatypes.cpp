@@ -21,6 +21,6 @@ int main()
 	cout<<"Price: "<< price << endl;
 	cout<<"Season: " << season << endl;
 	cout<<"Status: " << status << endl;
-
+    cin.get();
 	return 0;
 }

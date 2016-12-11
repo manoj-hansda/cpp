@@ -15,7 +15,6 @@ int main()
 
         c = a / b;
         cout << "Quotient = " << c;
-
     }
     catch (const char *err)
     {
