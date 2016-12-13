@@ -7,10 +7,10 @@ int main()
     ofstream fo;
     fo.open("abc.txt", ios::ate);
 
-    if( fo.is_open() )
-        cout << "File created";
-    else
+    if(!fo.is_open() )
         cout << "unable to open file";
+    else
+
 
     cout <<fo.tellp();
 
